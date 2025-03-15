@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.AppiumTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.051 s <<< FAILURE! - in com.example.AppiumTest
+loginTest(com.example.AppiumTest)  Time elapsed: 0.04 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void org.openqa.selenium.remote.http.ClientConfig.<init>(java.net.URI, java.time.Duration, java.time.Duration, org.openqa.selenium.remote.http.Filter, java.net.Proxy, org.openqa.selenium.Credentials)'
+	at com.example.AppiumTest.setUp(AppiumTest.java:34)
+
